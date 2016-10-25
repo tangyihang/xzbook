@@ -7,6 +7,8 @@ use common\helps\globals;
 use common\models\Gather;
 use common\modelsDB\BooksourceDB;
 use common\modelsDB\MongoChapterDB;
+
+require(__DIR__ . '/../../common/helps/constans.php');
 /**
  * 采集控制器
  * @author yihang
