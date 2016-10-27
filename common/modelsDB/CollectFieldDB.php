@@ -55,10 +55,10 @@ class CollectFieldDB extends ActiveRecord {
 	 */
 	public static function setfield(){
 		$field = new CollectFieldDB();
-		$field->sourceid = '1';//字段名
+		$field->sourceid = '2';//字段名
 		$field->fieldname = 'bcnewurl';//字段名
-		$field->ruleid = '5';//所属规则id
-		$field->uregular = '<li class="t5"><a href="(*)"(?)>(?)</a> </li>';//规则
+		$field->ruleid = '1';//所属规则id
+		$field->uregular = '<li>最新更新：<a href="(*)" target="_blank">(?)</a></li>';//规则
 		$field->type = '1';//1、连接，2、文字
 		$field->clearhtml = '';//清除指定的标签
 		$field->cleardefalt = '';//清除的默认值
